@@ -49,7 +49,8 @@ lab10_php_oop/
 
 | Halaman | Preview |
 |---------|--------|
-| Form Input | ![Form Input](gambar/from.png) |
+| Form Input |<img width="700" height="338" alt="image" src="https://github.com/user-attachments/assets/dd2c2c1f-f84c-486a-84d9-2b9711e6d3f8" />
+
 | Halaman Utama | ![Index](gambar/index.png) |
 | Daftar Mobil | ![Mobile](gambar/mobile.png) |
 
