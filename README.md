@@ -2,24 +2,21 @@
 
 Proyek ini adalah implementasi **PHP OOP** sederhana untuk mengelola data mobil dan form input. Proyek ini menggunakan konsep Object-Oriented Programming di PHP dan modularisasi file untuk database, form, dan konfigurasi.
 
-## Struktur Folder
-
-lab10 php_oop/
+lab10_php_oop/
 │
-├─ gambar/ # Folder berisi screenshot dan ilustrasi
-│ ├─ from.png
-│ ├─ index.png
-│ └─ mobile.png
+├─ gambar/               # Folder berisi screenshot dan ilustrasi
+│  ├─ form.png
+│  ├─ index.png
+│  └─ mobile.png
 │
-├─ lib/ # Folder berisi library PHP
-│ ├─ config.php # File konfigurasi database
-│ ├─ database.php # Class Database
-│ ├─ from.php # Class Form
-|
-├─ from input.php # Form input data
-├─ index.php # Halaman utama aplikasi
-├─ mobil.php # Class atau contoh penggunaan data mobil
-
+├─ lib/                  # Folder berisi library PHP
+│  ├─ config.php         # File konfigurasi database
+│  ├─ Database.php       # Class Database (huruf besar konsisten)
+│  └─ Form.php           # Class Form (huruf besar konsisten)
+│
+├─ form_input.php        # Form input data (tidak ada spasi)
+├─ index.php             # Halaman utama aplikasi
+└─ mobil.php             # Class atau contoh penggunaan data mobil
 
 ## Fitur
 
@@ -40,3 +37,20 @@ lab10 php_oop/
 2. Import database yang dibutuhkan (sesuai konfigurasi di `config.php`).
 3. Letakkan folder `LAB10 PHP_OOP` di dalam `htdocs` (untuk XAMPP) atau root server.
 4. Buka browser dan akses:
+
+5. Gunakan form untuk menambahkan atau menampilkan data mobil.
+
+## Catatan
+
+- Pastikan nama file dan folder sesuai dengan struktur di atas.
+- Sesuaikan konfigurasi database di `lib/config.php`.
+- Semua class menggunakan namespace default, tidak menggunakan autoload.
+
+## Screenshot
+
+| Halaman | Preview |
+|---------|--------|
+| Form Input | ![Form Input](gambar/from.png) |
+| Halaman Utama | ![Index](gambar/index.png) |
+| Daftar Mobil | ![Mobile](gambar/mobile.png) |
+
