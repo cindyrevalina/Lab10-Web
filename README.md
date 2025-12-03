@@ -2,21 +2,6 @@
 
 Proyek ini adalah implementasi **PHP OOP** sederhana untuk mengelola data mobil dan form input. Proyek ini menggunakan konsep Object-Oriented Programming di PHP dan modularisasi file untuk database, form, dan konfigurasi.
 
-## Struktur Folder
-
-```plaintext
-lab10_php_oop/
-├─ gambar/               # Folder berisi screenshot dan ilustrasi
-│  ├─ form.png
-│  ├─ index.png
-│  └─ mobile.png
-├─ lib/                  # Folder berisi library PHP
-│  ├─ config.php         # File konfigurasi database
-│  ├─ Database.php       # Class Database
-│  └─ Form.php           # Class Form
-├─ form_input.php        # Form input data
-├─ index.php             # Halaman utama aplikasi
-└─ mobil.php             # Class atau contoh penggunaan data mobil
 ## Fitur
 
 1. **Form Input**  
